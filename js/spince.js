@@ -265,14 +265,18 @@ function extractLinks(excludedLinks) {
 					$(this).append("-");											
 									
 				// check if link is on the excluded link list
-				} else if (excludedLinks.indexOf(urlHostName) >= 0) {
+				} else if (excludedLinks.length >= 0) {
 
-					// set the link display to show dash			
-					var imagePath = chrome.extension.getURL('/img/dash.png');
+					if (excludedLinks.indexOf(urlHostName) >= 0) {
+					
+						// set the link display to show dash			
+						var imagePath = chrome.extension.getURL('/img/dash.png');
 																	 						
-					// insert the dash image
-					$(this).after("<img style='height:7px;width:7px' alt='Link is on excluded list.' src='" + imagePath + "' />");																								
-				} else {															
+						// insert the dash image
+						$(this).after("<img style='height:7px;width:7px' alt='Link is on excluded list.' src='" + imagePath + "' />");																								
+					}
+					
+				} else {																
 
 					// add links to array based on the protocol
 					if (linkProtocol === "http://") {
