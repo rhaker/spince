@@ -31,7 +31,7 @@ The clickbait tool uses a term frequency (TF) statistical algorithm to score the
 
 Spince ships with a blacklist that prevents the tool from running on certain sites. These sites include gmail.com, aws, ebay, and other prominent sites. You can find the full list within the spince.js file. Note that you can add or remove any site from the blacklist by clicking on the spince icon in the browser bar and then selecting your action.
 
-You can also prevent a link from being analyzed. This is different from the blacklist. The blacklist prevents Spince from analyzing all links on a certain website. Basically, the blacklist is an off-on switch. You can also selectively manage links on a page. To prevent a link from being analyzed, you would click the Manage Links button from the Spince icon popup. When prompted you enter the domain name you want to manage.
+You can also prevent a single link from being analyzed within a page. This is different from the blacklist. The blacklist prevents Spince from analyzing all links on a certain website. Basically, the blacklist is an off-on switch when a page loads. You can also selectively manage individual links on a page. To prevent a link from being analyzed, you would click the Manage Links button from the Spince icon popup. When prompted you enter the domain name you want to manage.
 
 As an example, suppose you want to prevent all links for the www.example.com from being analyzed. You enter this domain in the Manage Link -> Exclude Link section of the Spince popup (in the browser toolbar). Then Spince will skip over any links that have the www.example.com domain.
 
@@ -39,4 +39,4 @@ As an example, suppose you want to prevent all links for the www.example.com fro
 
 A premium version with an enhanced algorithm is under development. New features and pull requests are appreciated. There are also plans to build Spince for other platforms (Firefox, Safari, mobile).
 
-The tool currently works for English, Spanish, German, French, and Italian. More languagues can be requested or implemented via pull requests.
+The tool currently works for English, Spanish, German, French, and Italian. More languages can be requested or implemented via pull requests.
