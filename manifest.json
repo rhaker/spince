@@ -2,7 +2,7 @@
   "name": "Spince Links",
   "short_name": "Spince Links",
   "description": "Spince is a free clickbait blocker that compares the relevance of link text to the text of the linked page.",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "icons": {
     "16" : "img/icon_16.png",
     "48" : "img/icon_48.png",
