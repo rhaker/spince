@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Spince Settings</title>
+    <style>
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
+    div:first-child {
+      margin-top: 0px;
+    }
+    div {
+      cursor: pointer;
+      text-align: center;
+      padding: 5px 5px;
+      font-family: sans-serif;
+      font-size: 1.2em;
+      width: 175px;
+      margin-top: 5px;
+      background: #cccccc;
+    }
+    div:hover {
+      background: #aaaaaa;
+    }
+    #red {
+      border: 1px solid red;
+      color: red;
+    }    
+    #green {
+      border: 1px solid green;
+      color: green;
+    }
+	#red2 {
+      border: 1px solid red;
+      color: red;
+	  display:none;
+    }    
+    #green2 {
+      border: 1px solid green;
+      color: green;
+	  display:none;
+    }    
+	#yellow {
+      border: 1px solid yellow;
+      color: yellow;	  
+    }    
+	#gray {
+      border: 1px solid gray;
+      color: gray;
+	  font-size: 1.0em;
+    }   	
+	#help {
+      border: 1px solid blue;
+      color: white;
+	  font-size: 1.0em;	  
+	  display:none;
+    }   		
+    </style>    		
+	<script src="js/popup.js"></script>	
+  </head>
+  <body>
+	<div id="hideCont">
+		<div id="red">Blacklist Site</div>    
+		<div id="green">Whitelist Site</div>
+		<div id="yellow">Manage Links</div>
+		<div id="red2">Exclude a Link</div>
+		<div id="green2">Include a Link</div>		
+		<div id="help">Help?</div>
+		<div id="gray">Close</div>    	 
+	</div>
+	
+  </body>
+</html>
