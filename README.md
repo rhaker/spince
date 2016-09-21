@@ -6,7 +6,7 @@ Spince is a free clickbait blocker that compares the relevance of link text to t
 
 ## Installation
 
-You can install Spince Links from the Chrome Web Store via <https://chrome.google.com/webstore/detail/ekidgogoamlmlmlccoghgbfamckinogm/>.
+You can install Spince Links from the Chrome Web Store via <https://chrome.google.com/webstore/detail/ekidgogoamlmlmlccoghgbfamckinogm/>
 
 ## Features
 
